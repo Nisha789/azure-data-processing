@@ -1,4 +1,4 @@
-*** Implementation of Azure Logic App where Azure Function will listen to Blob trigger and publish blob details into Topics, inside Logic App it will read message content from Topic and send customize email with attachment ***
+## Implementation of Azure Logic App where Azure Function will listen to Blob trigger and publish blob details into Topics, inside Logic App it will read message content from Topic and send customize email with attachment ##
 
 1. Create a container (landing-zn) within azure storage account
 2. Create a blob trigger function & deploy it within a function app. In that, add service bus environment variables in the azure blob trigger function
